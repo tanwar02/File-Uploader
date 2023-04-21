@@ -26,7 +26,6 @@ import java.nio.file.Path
 import javax.naming.SizeLimitExceededException
 
 @ExtendWith(MockitoExtension::class)
-@TestPropertySource(locations = ["C:\\Users\\SAGAR TANWAR\\Downloads\\Kotlin_Project\\file_uploader\\src\\main\\resources\\application.properties"])
 class FileTest {
 
     @InjectMocks
